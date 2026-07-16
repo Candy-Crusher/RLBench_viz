@@ -53,6 +53,29 @@
       gap: 10px;
       max-width: 900px;
     }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .hero-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .hero-link.secondary {
+      border-color: var(--line);
+      background: #fff;
+      color: var(--ink);
+    }
     .stat {
       border: 1px solid var(--line);
       background: #fff;
@@ -246,6 +269,10 @@
     <section class="hero">
       <h1>RLBench 104 Task Catalog</h1>
       <p class="lead">A compact browser for the RLBench task set used in our data pipeline. Each available clip is rendered as RGB, depth, and all scene flow side by side from the front camera.</p>
+      <div class="hero-actions">
+        <a class="hero-link" href="peract_compact/">PerAct TTM 11-task compact gallery</a>
+        <a class="hero-link secondary" href="catalog.json">Catalog JSON</a>
+      </div>
       <div class="stats">
         <div class="stat"><b>104</b><span>task classes</span></div>
         <div class="stat"><b>99</b><span>with sampled videos</span></div>

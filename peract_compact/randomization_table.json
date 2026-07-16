@@ -1,0 +1,79 @@
+[
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "turn the channel minus | turn the channel up",
+    "task": "change_channel",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "close the olive jar | close the navy jar | close the magenta jar | close the gray jar | close the teal jar | close the green jar | close the azure jar | close the maroon jar | close the silver jar | close the violet jar | close the orange jar | close the black jar | close the blue jar | close the white jar | close the lime jar | close the yellow jar | close the cyan jar | close the red jar | close the purple jar | close the rose jar",
+    "task": "close_jar",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, object initial pose, quantity/count choice, container/fixture choice",
+    "sampled_language_variations": "put the ring on the olive spoke | put the ring on the navy spoke | put the ring on the magenta spoke | put the ring on the gray spoke | put the ring on the teal spoke | put the ring on the green spoke | put the ring on the azure spoke | put the ring on the maroon spoke | put the ring on the silver spoke | put the ring on the violet spoke | put the ring on the orange spoke | put the ring on the black spoke | put the ring on the blue spoke | put the ring on the white spoke | put the ring on the lime spoke | put the ring on the yellow spoke | put the ring on the cyan spoke | put the ring on the red spoke | put the ring on the purple spoke | put the ring on the rose spoke",
+    "task": "insert_onto_square_peg",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "screw in the olive light bulb | screw in the navy light bulb | screw in the magenta light bulb | screw in the gray light bulb | screw in the teal light bulb | screw in the green light bulb | screw in the azure light bulb | screw in the maroon light bulb | screw in the silver light bulb | screw in the violet light bulb | screw in the orange light bulb | screw in the black light bulb | screw in the blue light bulb | screw in the white light bulb | screw in the lime light bulb | screw in the yellow light bulb | screw in the cyan light bulb | screw in the red light bulb | screw in the purple light bulb | screw in the rose light bulb",
+    "task": "light_bulb_in",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/shape/type choice, target/location choice, object initial pose, quantity/count choice, container/fixture choice",
+    "sampled_language_variations": "place 1 cup on the cup holder | place 2 cups on the cup holder",
+    "task": "place_cups",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "put the moon in the shape sorter | put the star in the shape sorter | put the cube in the shape sorter | put the triangular prism in the shape sorter | put the cylinder in the shape sorter",
+    "task": "place_shape_in_shape_sorter",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "push the maroon button, then push the green button, then push the black button | push the maroon button, then push the green button | push the maroon button | push the maroon button, then push the green button, then push the azure button | push the maroon button, then push the green button, then push the white button | push the maroon button, then push the green button, then push the cyan button | push the maroon button, then push the green button, then push the yellow button | push the maroon button, then push the green button, then push the rose button | push the maroon button, then push the green button, then push the purple button | push the maroon button, then push the green button, then push the orange button | push the maroon button, then push the green button, then push the gray button | push the maroon button, then push the green button, then push the navy button | push the maroon button, then push the green button, then push the violet button | push the maroon button, then push the blue button | push the maroon button, then push the green button, then push the magenta button | push the maroon button, then push the green button, then push the olive button | push the maroon button, then push the green button, then push the blue button | push the maroon button, then push the green button, then push the silver button | push the maroon button, then push the green button, then push the teal button",
+    "task": "push_buttons",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/shape/type choice, target/location choice, object initial pose, quantity/count choice, container/fixture choice",
+    "sampled_language_variations": "put the spam in the cupboard | put the sugar in the cupboard | put the mustard in the cupboard | put the soup in the cupboard | put the tuna in the cupboard | put the crackers in the cupboard | put the coffee in the cupboard | put the strawberry jello in the cupboard | put the chocolate jello in the cupboard",
+    "task": "put_groceries_in_cupboard",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/shape/type choice, target/location choice, quantity/count choice, container/fixture choice",
+    "sampled_language_variations": "put item in bottom drawer",
+    "task": "put_item_in_drawer",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, quantity/count choice",
+    "sampled_language_variations": "use the stick to drag the cube onto the olive target | use the stick to drag the cube onto the navy target | use the stick to drag the cube onto the magenta target | use the stick to drag the cube onto the gray target | use the stick to drag the cube onto the teal target | use the stick to drag the cube onto the green target | use the stick to drag the cube onto the azure target | use the stick to drag the cube onto the maroon target | use the stick to drag the cube onto the silver target | use the stick to drag the cube onto the violet target | use the stick to drag the cube onto the orange target | use the stick to drag the cube onto the black target | use the stick to drag the cube onto the blue target | use the stick to drag the cube onto the white target | use the stick to drag the cube onto the lime target | use the stick to drag the cube onto the yellow target | use the stick to drag the cube onto the cyan target | use the stick to drag the cube onto the red target | use the stick to drag the cube onto the purple target | use the stick to drag the cube onto the rose target",
+    "task": "reach_and_drag",
+    "variation_count": "1 or source-defined"
+  },
+  {
+    "common_collection_randomization": "seed controls RLBench reset/demo sampling; task_env.sample_variation(); optional initial robot arm joint Gaussian noise, gripper open amount, tip IK xyz/rpy perturbation",
+    "randomizable_types": "variation/language target, object/color choice, object/shape/type choice, target/location choice, object initial pose, quantity/count choice",
+    "sampled_language_variations": "stack 3 silver blocks | stack 3 olive blocks | stack 3 purple blocks | stack 2 teal blocks | stack 3 white blocks | stack 4 orange blocks | stack 3 green blocks | stack 4 azure blocks | stack 2 maroon blocks | stack 2 green blocks | stack 3 magenta blocks | stack 4 green blocks | stack 2 yellow blocks | stack 3 teal blocks | stack 4 lime blocks | stack 4 purple blocks | stack 4 silver blocks | stack 4 rose blocks | stack 3 yellow blocks | stack 3 orange blocks | stack 3 maroon blocks | stack 3 red blocks | stack 2 cyan blocks | stack 4 cyan blocks",
+    "task": "stack_blocks",
+    "variation_count": "1 or source-defined"
+  }
+]
